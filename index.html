@@ -1,0 +1,100 @@
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>PSERMIS</title>
+	 <link rel="shortcut icon" href="images/logo-3.png">
+<style>
+.{
+box-sizing:border-box;
+}
+body{
+	width: 80%;
+margin:0px;
+padding:0px;
+font-family:"Times New Roman", Times, serif;
+}
+.preload{
+width:100%;
+height:100%;
+background:#000066;
+position:fixed;
+top:0;
+left:0;
+z-index:1;
+}
+.logo{
+width:300px;
+height:70px;
+margin:150px auto 50px auto;
+text-shadow:-1px 2px 2px #000;
+font-size:20px;
+text-align:center;
+color:#FFFFFF;
+}
+.loader-frame{
+width:70px;
+height:70px;
+margin:auto;
+position:relative;
+}
+
+.loader1,.loader{
+	position:absolute;
+	border:3px solid tranparent;
+	border-radius:80%;
+	top: 4px;
+}
+.loader2,.loader{
+position:absolute;
+border:3px solid tranparent;
+border-radius:60%;
+}
+.loader1{
+width:60px;
+height:60px;
+border-top:3px solid #FFFFFF;
+border-bottom:3px solid #FFFFFF;
+left:12px;
+right:5px;
+animation:clockwisespin 2s linear 3;
+}
+.loader2{
+width:70px;
+height:70px;
+border-left:5px solid #FF9933;
+border-right:5px solid #FF9933;
+top:2px;
+left:1px;
+animation:anticlockwisespin 2s linear 3;
+}
+@keyframes clockwisespin{
+from {transform:rotate(0deg);}
+to{transform:rotate(350deg);}
+}
+@keyframes anticlockwisespin{
+from {transform:rotate(0deg);}
+to{transform:rotate(-350deg);}
+}
+@keyframes fadeout{
+from {opacity:1;}
+to{opacity:0;}
+}
+</style>
+
+ </head>
+       <body>
+         <div class="preload">
+		     <div class="logo">
+		 Loading Primary School Examination Results Management Information System (<span style="color:#FF9933;">P.S.E.R.M.I.S</span>)<span style="color:#FF9933;"><br><br> Please wait...</span>
+		 
+		     </div>
+		        <div class="loader-frame">
+		            <div class="loader1" id="loader1"></div>
+		            <div class="loader2" id="loader2"></div>
+           </div>
+		     
+		 <script src="java.js"></script>  
+   </body>
+</html>

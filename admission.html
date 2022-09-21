@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>online admission system</title>
+</head>
+<body bgcolor="gray">
+<center><body style="background:url('images/1.jpg')no-repeat;backgroung-size:cover;">
+</center><br>
+<center>
+ <font size="5" color="#00FF33">KIBABII UNIVERSITY 
+  </font></center>
+<center>
+	<table width="100%" height="10%" border="0" bgcolor="blue">
+	<td>HOME</td><td>ABOUT US</td><td>GALLERY</td><td>CONTACT US</td></table>
+	FILL THE FORM BELOW.
+	<hr color="blue"width="100%">
+	<form method="post" action="apply-now.php">
+		<fieldset><legend>Academic Information:</legend>
+</br>
+<label for="degree">DEGREE:</label>
+    <select name="degree" id="DEGREE">
+    <option value="BA">Bachelor of Art</option>
+      <option value="Bsc">Bachelor of Science</option>
+      <option value="MBA" selected="selected">Master of
+        Business Administration</option>
+    </select>
+    <br/>
+    <label for="faculty">FACULTY:</label>
+    <select name="faculty" id="FACULTY">
+      <option value="SCAI">School of computing and informatics</option>
+      <option value="BCOM">Bachelor of computer Science</option>
+      <option value="FS">Faculty of science</option>
+    </select>
+    <br/>
+  </fieldset>
+  <fieldset><legend>Personal Details:</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" class="form-control" placeholder="enter first name"><br/>
+     <label for="Sname">Second Name:</label>
+    <input type="text" name="Sname" class="form-control" placeholder="enter second name">
+     <br />
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" class="form-control" placeholder="enter last name">
+     <br />
+     Gender: 
+     <input name="gender" type="radio" id="gm" value="m" />
+     <label for="gm">Male</label>
+     <input name="gender" type="radio" id="gf" value="f" />
+     <label for="gf">Female</label>
+   <br />
+    <label for="email">Email :</label>
+    <input type="text" name="email" class="form-control" placeholder="enter email address">
+ 
+  <p>
+    <input type="submit" name="submit" value="Send Form" />
+    <input type="reset" value="Clear Form" />
+  </p>
+  </fieldset>
+</center>
+</form>
+</body>
+</html>

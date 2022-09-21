@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	font-size: 120%;
+	background: #5F9EA0;
+}
+
+.header{
+	width: 180px;
+	margin: 50px auto 0px;
+	color: white;
+	background: #0000cc;
+	text-align: center;
+	border: 1px solid #0000cc;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content{
+	width: 180px;
+	margin: 0px auto;
+	padding: 20px;
+	border:1px solid #0000cc;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 1px 10px 1px;
+
+}
+.input-group label {
+display: block;
+text-align: left;
+margin: 5px;
+
+}
+.input-group input{
+	height: 20px;
+	width: 180px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid gray;
+
+}
+.btn {
+	padding:  10px;
+	font-size: 15px;
+	color: white;
+	background:#0000cc;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 90%;
+	margin: 0px auto;
+	padding: 10px;
+	border:1px solid #80C4DE;
+	color: #80C4DE;
+	background:white;
+	border-radius: 5px;
+	text-align: left;
+
+}
+.success {
+	width: 90%;
+	color: #3c763d;
+	background:#dff0d8;
+	border:1px solid #3c763d;
+	margin-bottom: 20px;
+}
+body {
+   background-image:url("images/4.jpg");
+   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box{
+	border:1px solid blue;
+}
